@@ -11,7 +11,7 @@ def select_winner(passengers)
   winner = ""
   passengers.each do |name, value|
     if name == name.start_with("A")
-      puts "#{name}"
+      winner == name
     end
   end
 end
