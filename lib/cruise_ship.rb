@@ -8,8 +8,9 @@
 
 def select_winner(passengers)
   # add the code snippet here!
+  winner = ""
   passengers.each do |name, value|
-    if name == "A"
+    if name == name.start_with("A")
       puts "#{name}"
     end
   end
